@@ -20,29 +20,38 @@
         android:paddingTop="20px"
         android:paddingRight="40px"
         android:paddingBottom="20px"
-        android:paddingLeft="40px">
+        android:paddingLeft="40px"
+        android:layout_marginBottom="10px">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Piso"
-            android:textSize="8pt"
-            android:textColor="#303F9F"
-            android:textStyle="bold"
-            android:id="@+id/floor_title_tv"/>
 
-        <TextView
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Puestos disponibles: #"
-            android:textStyle="bold"
-            android:id="@+id/floor_available_seats_tv"/>
+            android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Descripción"
-            android:id="@+id/floor_description_tv"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Piso"
+                android:textSize="8pt"
+                android:textColor="#303F9F"
+                android:textStyle="bold"
+                android:id="@+id/floor_title_tv"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Puestos disponibles: #"
+                android:textStyle="bold"
+                android:id="@+id/floor_available_seats_tv"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Descripción"
+                android:id="@+id/floor_description_tv"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 

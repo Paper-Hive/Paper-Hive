@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="20dp"
+        android:text="Desk #01"
+        android:textColor="#303F9F"
+        android:textSize="18pt"
+        android:textStyle="bold"
+        android:id="@+id/occupied_seat_seat_name_tv"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingTop="10px"
+        android:paddingBottom="10px"
+        android:text="Ocupado"
+        android:textColor="#E05151"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:id="@+id/occupied_seat_seat_state_tv"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10px"
+        android:text="Start: -- : --"
+        android:textColor="#303F9F"
+        android:textSize="10pt"
+        android:id="@+id/occupied_seat_start_time_tv"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10px"
+        android:text="Finish: -- : --"
+        android:textColor="#303F9F"
+        android:textSize="10pt"
+        android:id="@+id/occupied_seat_finish_time_tv"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="40px"
+        android:text="Historial de reportes:"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        android:textSize="10pt"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/occupied_seat_report_list">
+
+    </ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:background="#E05151"
+        android:text="REPORTAR"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:id="@+id/occupied_seat_report_btn"/>
+</LinearLayout>

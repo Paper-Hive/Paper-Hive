@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingTop="20px"
+    android:paddingRight="80px"
+    android:paddingBottom="20px"
+    android:paddingHorizontal="80px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu nombre"
+        android:textStyle="bold"
+        android:textColor="#212121"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:textSize="6pt"
+        android:textColor="#212121"
+        android:layout_marginBottom="20px"
+        android:id="@+id/sign_up_name_et"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu número de documento de identidad"
+        android:textStyle="bold"
+        android:textColor="#212121"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de documento"
+        android:textSize="6pt"
+        android:textColor="#212121"
+        android:id="@+id/sign_up_id_et"
+        android:layout_marginBottom="20px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu email"
+        android:textStyle="bold"
+        android:textColor="#212121"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="6pt"
+        android:textColor="#212121"
+        android:id="@+id/sign_up_email_et"
+        android:layout_marginBottom="20px"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginRight="40px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crea una contraseña"
+                android:textColor="#212121"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Contraseña"
+                android:textSize="6pt"
+                android:textColor="#212121"
+                android:id="@+id/sign_up_password_et"
+                android:layout_marginBottom="20px"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginBottom="60px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Confirma tu contraseña"
+                android:textStyle="bold"
+                android:textColor="#212121"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirmar contraseña"
+                android:textSize="6pt"
+                android:textColor="#212121"
+                android:id="@+id/sign_up_confirm_password_et"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRARSE"
+        android:textStyle="bold"
+        android:background="#3f51b5"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20px"
+        android:id="@+id/sign_up_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INICIAR SESION"
+        android:background="#00ffffff"
+        android:textColor="#212121"
+        android:id="@+id/go_to_login_screen_btn"/>
+
+</LinearLayout>

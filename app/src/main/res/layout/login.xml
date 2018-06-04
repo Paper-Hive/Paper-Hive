@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/login_bg"
+    android:paddingTop="30px"
+    android:paddingRight="80px"
+    android:paddingBottom="30px"
+    android:paddingHorizontal="80px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu email"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="6pt"
+        android:textColorHint="#ffffff"
+        android:id="@+id/login_email_et"
+        android:layout_marginBottom="20px"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu contraseña"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contraseña"
+        android:textSize="6pt"
+        android:textColorHint="#ffffff"
+        android:id="@+id/login_password_et"
+        android:layout_marginBottom="100px"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INICIAR SESIÓN"
+        android:textStyle="bold"
+        android:background="#3f51b5"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20px"
+        android:id="@+id/login_btn"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRARSE"
+        android:background="#00ffffff"
+        android:textColor="#ffffff"
+        android:id="@+id/go_to_sign_up_screen_btn"/>
+
+</LinearLayout>
+

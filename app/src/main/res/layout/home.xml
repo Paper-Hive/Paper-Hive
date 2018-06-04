@@ -18,10 +18,4 @@
         android:layout_height="wrap_content"
         android:id="@+id/home_floors_list"></ListView>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="AGREGAR"
-        android:id="@+id/home_add_btn"/>
-
 </LinearLayout>
